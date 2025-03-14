@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3ee !important; /* Đảm bảo CSS được ưu tiên */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(176, 159, 159, 0.1);
+    width: 800px;
+    text-align: center;
+}
+
+/* Đổi thành đúng className trong React */
+.D1 > h1 {
+    color: rgb(138, 165, 31);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid #a50a3eb0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(177, 98, 153);
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid hsl(0, 53%, 69%);
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(135, 220, 230);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #399d82;
+}
